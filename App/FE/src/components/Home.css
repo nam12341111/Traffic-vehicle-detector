@@ -1,0 +1,41 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.home-buttons .btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.home-buttons .btn:hover {
+  background-color: #555;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
